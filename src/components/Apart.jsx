@@ -8,11 +8,11 @@ const Apart = () => {
     <div className="w-full bg-[#fffffc]">
       <div className="max-w-285 w-full flex items-center justify-center flex-col mx-auto px-4 sm:px-6 ">
         
-        <h7 className="text-[#1E1E24] dm-text font-normal text-2xl sm:text-3xl md:text-5xl leading-[120%] text-center">
+        <h7 className="text-[#1E1E24] dm-sns font-normal text-2xl sm:text-3xl md:text-5xl leading-[120%] text-center">
           What <span className="text-[#3C7E35]"> Sets Us </span> Apart
         </h7>
 
-        <p className="text-[#5F5F5F] text-sm sm:text-base font-normal leading-[160%] mt-4 text-center max-w-xl">
+        <p className="text-[#5F5F5F] pop text-sm sm:text-base font-normal leading-[160%] mt-4 text-center max-w-xl">
           Why Captiva Verde is the Indigenous Development Partner of Choice
         </p>
 
@@ -31,7 +31,7 @@ const Apart = () => {
                   />
                 </span>
 
-                <p className="poppins font-medium leading-[130%] tracking-normal text-sm sm:text-xl text-secondary">
+                <p className="pop font-medium leading-[130%] tracking-normal text-sm sm:text-xl text-secondary">
                   {item.title}
                 </p>
               </div>
@@ -41,11 +41,11 @@ const Apart = () => {
 
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-10 sm:mt-12.5">
           <Button
-            className={"bg-[#3C7E35] border border-transparent text-[#FFFFFC] rounded-[55px] h-[52.1px] w-[186.1px] hover:border hover:bg-white hover:text-[#3C7E35] hover:border-[#3C7E35] "}
+            className={"bg-[#3C7E35] border pop border-transparent text-[#FFFFFC] rounded-[55px] h-[52.1px] w-[186.1px] hover:border hover:bg-white hover:text-[#3C7E35] hover:border-[#3C7E35] "}
             text={"Contact Us"}
           />
           <Button
-            className={"text-[#3C7E35] border border-[#3C7E35] rounded-[55px] hover:bg-[#3C7E35] hover:text-white h-[52.1px] w-[186.1px]"}
+            className={"text-[#3C7E35] border pop border-[#3C7E35] rounded-[55px] hover:bg-[#3C7E35] hover:text-white h-[52.1px] w-[186.1px]"}
             text={"Meet the Team"}
           />
         </div>

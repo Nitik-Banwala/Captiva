@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Icons from './common/Icone'
 import Button from './common/Button'
-
+import { paradata } from '@/utils/helper'
 
 const Leadership = () => {
   return (
@@ -19,23 +19,23 @@ const Leadership = () => {
           <div className="w-full md:max-w-[50%]">
            <div className='gap-3 flex flex-row items-center'>
             <Icons icon={"whiteline"}/>
-            <p className='text-white '>Public Company Status</p>
+            <p className='text-white pop '>Public Company Status</p>
             <Icons icon={"whiteline"}/>
            </div>
-            <h5 className="dm-text mt-3 font-normal text-2xl sm:text-3xl md:text-5xl leading-[120%] text-[#FFFFFC]">
+            <h5 className=" dm-sns mt-3 font-normal text-2xl sm:text-3xl md:text-5xl leading-[120%] text-[#FFFFFC]">
               Culture-Led Leadership
             </h5>
 
             <Button
               text={"View Investor Information"}
               className={
-                "text-[#3C7E35] border border-transparent rounded-[55px] h-[52.1px] w-[274.1px] mt-5 sm:mt-6 bg-[#FFFFFC] hover:text-[#FFFFFC] hover:bg-[#3C7E35] hover:border-[#fffffc]"
+                "text-[#3C7E35] pop border border-transparent rounded-[55px] h-[52.1px] w-[274.1px] mt-5 sm:mt-6 bg-[#FFFFFC] hover:text-[#FFFFFC] hover:bg-[#3C7E35] hover:border-[#fffffc]"
               }
             />
           </div>
 
           <div className="w-full md:max-w-[45%]">
-            <p className="poppins max-w-full md:max-w-121.25 font-normal text-sm sm:text-base leading-[160%] text-[#FFFFFC]">
+            <p className="pop max-w-full md:max-w-121.25 font-normal text-sm sm:text-base leading-[160%] text-[#FFFFFC]">
               Captiva Verde operates with full transparency as a publicly traded
               company on the Canadian Securities Exchange and U.S. OTC Markets.
               Our commitment to Indigenous nations is matched by a duty to our

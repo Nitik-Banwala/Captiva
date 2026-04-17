@@ -11,7 +11,7 @@ const Board = () => {
                 <div className='max-w-[546.1px]'>
                     <div className='text-[#3C7E35] font-medium leading-[160%] flex flex-row items-center gap-3'>
                         <Icons icon={"line"} />
-                        <p>Advisory Board Highlights</p>
+                        <p className='pop'>Advisory Board Highlights</p>
                         <Icons icon={"line"} />
                     </div>
                     <h2 className='leading-[120%] mt-3 text-3xl md:text-4xl lg:text-5xl font-normal text-black dm-sns'>Leading with Experience, Culture & Vision</h2>

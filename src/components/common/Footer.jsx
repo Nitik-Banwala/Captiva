@@ -5,7 +5,7 @@ import { footerData, footerTagData } from "@/utils/helper";
 
 const Footer = () => {
     return (
-        <div className="w-full bg-[#1E1E24] pt-10 md:pt-17.5 flex flex-col gap-5 sm:gap-10 md:gap-18.5">
+        <div className="w-full bg-[#1E1E24] pop pt-10 md:pt-17.5 flex flex-col gap-5 sm:gap-10 md:gap-18.5">
             <div className="max-w-285 w-full mx-auto flex px-4 xl:px-0 ">
                 <div className="flex flex-col gap-5 sm:gap-8 lg:gap-5.5 w-full">
                     <div className="flex gap-4 md:gap-6 lg:gap-8 xl:gap-5.5 flex-col xl:flex-row w-full ">
@@ -83,7 +83,7 @@ const Footer = () => {
             </div>
             <div className="border-t border-t-[#fffffc] py-5 flex justify-center items-center px-4 xl:px-0 text-center">
                 <p className="text-[#fffffc] poppins leading-[160%] text-sm md:text-base">
-                    Â© {new Date().getFullYear()} Captiva Verde Wellness Corp. All rights
+                    © {new Date().getFullYear()} Captiva Verde Wellness Corp. All rights
                     reserved.
                 </p>
             </div>

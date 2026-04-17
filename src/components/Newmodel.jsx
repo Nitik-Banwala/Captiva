@@ -20,7 +20,7 @@ const Newmodel = () => {
                 </div>
 
                 <div className='max-w-[527.1px] w-full mx-auto lg:mx-0'>
-                    <p className='text-[#3C7E35] mt-12.5 font-medium leading-[160%] flex flex-row items-center gap-3'>
+                    <p className='text-[#3C7E35] pop mt-12.5 font-medium leading-[160%] flex flex-row items-center gap-3'>
                         <Icons icon={"line"} />
                         {IndigenousModelData.tag}
                         <Icons icon={"line"} />
@@ -33,7 +33,7 @@ const Newmodel = () => {
                     </p>
                     <Button
                         text={"Know More"}
-                        className='bg-[#3C7E35] text-white hover:bg-white hover:border hover:border-[#3C7E35] hover:text-[#3C7E35] w-[154.1px] h-[52.1px] rounded-[55px] font-semibold mt-8'
+                        className='bg-[#3C7E35] pop text-white hover:bg-white hover:border hover:border-[#3C7E35] hover:text-[#3C7E35] w-[154.1px] h-[52.1px] rounded-[55px] font-semibold mt-8'
                     />
                 </div>
             </div>
@@ -46,7 +46,7 @@ const Newmodel = () => {
                             alt={item.title}
                             className='rounded-t-lg max-h-[276.1px] w-full object-cover'
                         />
-                        <p className='mt-3 text-[#3C7E35] font-medium'>{item.title}</p>
+                        <p className='mt-3 text-[#3C7E35] font-medium pop'>{item.title}</p>
                     </div>
                 ))}
             </div>
