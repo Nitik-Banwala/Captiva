@@ -55,3 +55,73 @@ export const IndigenousCardsData = [
         image: "/images/modelfive.png",
     },
 ];
+export const paradata = [
+    {
+        heading: "Nowlen Augustine ",
+        para: "– President"
+    },{
+        heading: "Elder Sir Joe Michael ",
+        para: "– Spiritual & Cultural Vision"
+    },{
+        heading: "Jennifer Bellinger ",
+        para: "– Advisor of MDC"
+    },{
+        heading: "Travis Nabahe",
+        para: "– Navajo Nation / Intergovernmental Relations"
+    },{
+        heading: "Brandon Schilling ",
+        para: "– Aviation Advisor"
+    },{
+        heading: "Mark Rodd  ",
+        para: "– Advisor"
+    },{
+        heading: "Simon Lester  ",
+        para: " –  Advisor"
+    },{
+        heading: "Will Murphy ",
+        para: " – Advisor"
+    }, 
+]
+export const footerData = [
+    {
+        title: "Quick Links",
+        links: ["Home", "About Us", "Projects", "Advisory Board ", "News & Media"],
+    },
+    {
+        title: "Legal",
+        links: ["Privacy Policy", "Terms & Conditions"],
+    },
+];
+
+export const footerTagData = [
+    {
+        svg: "location",
+        text: "Vancouver, Canada",
+    },
+    {
+        svg: "phone",
+        text: "+1 473824327",
+    },
+    {
+        svg: "mail",
+        text: "info@captivaverde.com",
+    },
+];
+export const ApartData = [
+    {
+        icon: "lady",
+        title: "Indigenous-first governance",
+    },
+    {
+        icon: "war",
+        title: "Military-endorsed technology integration",
+    },
+    {
+        icon: "house",
+        title: "Fully funded 55-acre housing project underway",
+    },
+    {
+        icon: "globe",
+        title: "Publicly traded with ESG-aligned outcomes",
+    },
+];

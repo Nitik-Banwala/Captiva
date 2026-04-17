@@ -2,7 +2,7 @@
 const Button = ({ text, className }) => {
     return (
         <button
-            className={`cursor-pointer duration-300 transform ${className} `}
+            className={`cursor-pointer duration-500 transform ${className} `}
         >
             {text}
         </button>
