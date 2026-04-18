@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Icons from './Icone'
 import Image from 'next/image'
 import Button from './Button'
@@ -9,6 +9,17 @@ const socials = ["facebook", "insta", "twiter"];
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+        return () => {
+            document.body.style.overflow = '';
+        };
+    }, [isOpen]);
 
     return (
         <div className='fixed w-full z-60'>
@@ -51,7 +62,9 @@ const Navbar = () => {
                 </button>
                 <div className="flex flex-col gap-5">
                     {links.map(link => (
-                        <a key={link} href="#" className="text-sm font-medium hover:text-[#3C7E35] transition-colors">{link}</a>
+                        <a key={link} href="#" className="text-sm font-medium hover:text-[#3C7E35] transition-colors"
+                        onClick={() => setIsOpen(false)} 
+                        >{link}</a>
                     ))}
                 </div>
                 <div className="mt-auto">
