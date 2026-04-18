@@ -68,7 +68,7 @@ const Navbar = () => {
                     ))}
                 </div>
                 <div className="mt-auto">
-                    <Button text="Contact" className='w-full h-[52.1px] hover:border hover:border-[#3C7E35] hover:text-[#3C7E35] bg-[#3C7E35] rounded-[55px] text-white hover:bg-white' />
+                    <Button text="Contact" onClick={() => setIsOpen(false)}  className='w-full h-[52.1px] hover:border hover:border-[#3C7E35] hover:text-[#3C7E35] bg-[#3C7E35] rounded-[55px] text-white hover:bg-white' />
                 </div>
             </div>
         </div>
